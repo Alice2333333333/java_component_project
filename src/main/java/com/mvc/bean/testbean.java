@@ -1,6 +1,6 @@
 package com.mvc.bean;
 
-public class LoginBean
+public class testbean
 {
 	 private String userName;
 	 private String password;
