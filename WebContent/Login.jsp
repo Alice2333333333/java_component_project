@@ -26,7 +26,7 @@ function validate()
 </script> 
 <style>
         body {
-            background-image: url("https://scontent-kul2-1.xx.fbcdn.net/v/t39.30808-6/217599985_4781172865232047_3005654387441350992_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=973b4a&_nc_ohc=o1gdpsB2MdEAX8eSaa_&_nc_ht=scontent-kul2-1.xx&oh=00_AfCHTRQBQp4omCwbNI_8LzczbAxAIKjFp1AttgYzFFOgqw&oe=648FC877");
+            background-image: url("https://scontent.fkul3-2.fna.fbcdn.net/v/t39.30808-6/217599985_4781172865232047_3005654387441350992_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=973b4a&_nc_ohc=NK1BKZ1IfA8AX_dZD1D&_nc_ht=scontent.fkul3-2.fna&oh=00_AfDO8i3ex4-iygp4BxCt1tF0Bpu_hrof4X_-8wpKHkY4oQ&oe=6497B177");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -64,11 +64,9 @@ function validate()
 	</div>
 	</form>
     </div>
-          <form name="form" action="RegisterServlet" method="post">
-           	<div class="pt-1 mt-n5 mb-4 mx-5 btn-group btn-block d-flex">
-				<button class="btn btn-link btn-lg btn-block" type="submit" Value="Register">Do not have an Account? Sign Up</button>
-			</div>
-			</form>
+        <div class="pt-1 mt-n5 mb-4 mx-5 btn-group btn-block d-flex justify-content-center">
+			<a href="Register.jsp"><button class="btn btn-link btn-lg btn-block" type="submit" Value="Register">Do not have an Account? Sign Up</button></a>
+		</div>
         </div>
       </div>
     </div>

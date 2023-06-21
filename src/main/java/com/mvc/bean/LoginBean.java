@@ -3,18 +3,21 @@ package com.mvc.bean;
 import javax.ejb.Stateless;
 
 /**
- * Session Bean implementation class RegisterBean
+ * Session Bean implementation class LoginBean
  */
 @Stateless
-public class RegisterBean implements RegisterBeanRemote {
+public class LoginBean implements LoginBeanRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public LoginBean() {
+    }
 
     private String userName;
 	private String password;
-	
-    public RegisterBean() {
-    }
 
-    public String getUserName() {
+	public String getUserName() {
 		return userName;
 	}
 	
